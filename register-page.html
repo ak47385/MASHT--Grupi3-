@@ -30,22 +30,28 @@
                         </div>
                        </div>
 
-                       <div class="user-input-wrp">
+ 
+                       <div class=" user-input-wrp" style="padding-right:8px;">
                           <input type="email" class="inputText" required/>
                           <span class="floating-label">Email adresa</span>
                        </div>
 
                        <div class="private-info">
                         <div class="user-input-wrp">
-                            <input type="password" class="inputText" required/>
+                            <input type="password" class="inputText" id="user-password" onfocus="showRule()" required/>
                             <span class="floating-label">Vendosni fjalëkalimin</span>
                         </div>
 
                         <div class="user-input-wrp">
-                            <input type="password" class="inputText" required/>
+                            <input type="password" class="inputText" id="confirm-password" required/>
                             <span class="floating-label">Konfirmojeni fjalëkalimin</span>
                         </div>
                        </div>
+                       <div  class="password-rule" style="display: none;">
+                        Përdorni 8+ karaktere me një përzierje shkronjash, numrash dhe simbolesh</div>
+
+
+                       <input type="checkbox" onclick="showhidepassword()" style=" margin: 5px;">Trego Password-in
 
                     </div>
                     <div class="col-4 register-icon">
@@ -57,6 +63,6 @@
         </div>
     
     </div>
-    
+<script src="./js/register-page.js"></script> 
 </body>
 </html>

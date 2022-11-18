@@ -18,6 +18,12 @@ body{
     width: 100%;
 }
 
+.register-box{
+    border: 1px solid #DADCE0;
+    border-radius: 6px;
+    padding: 30px 5px 30px 5px;
+}
+
 /* .signin{
     background: white;
     padding: 40px 70px 40px 70px;
@@ -85,6 +91,3 @@ body{
     justify-content: space-between;
     flex-wrap: nowrap;
 }
-
-
-.register
