@@ -22,19 +22,19 @@
                         <h6>Eshte shume e lehte dhe e shpejt</h6>
                         <div class="personal-info">
                         <div class="user-input-wrp">
-                            <input type="text" class="inputText" required/>
+                            <input type="text" class="inputText" id="user-name" required/>
                             <span class="floating-label">Emri</span>
                         </div>
 
                         <div class="user-input-wrp">
-                            <input type="text" class="inputText" required/>
+                            <input type="text" class="inputText" id="user-lastname" required/>
                             <span class="floating-label">Mbiemri</span>
                         </div>
                        </div>
 
  
                        <div class=" user-input-wrp" style="padding-right:8px; margin-top: 12px;">
-                          <input type="email" class="inputText" required/>
+                          <input type="email" class="inputText" id="user-email" required/>
                           <span class="floating-label">Email adresa</span>
                        </div>
 
@@ -61,8 +61,8 @@
                     </div>
                 </div>
                 <div class="bttn-section">
-                    <button class="registerbttn goback-bttn">Kthehu mbas</button>
-                    <button class="registerbttn next-bttn">Regjistrohu</button> 
+                    <a href="./signup.html"><button class="registerbttn goback-bttn">Kthehu mbas</button></a>
+                    <button class="registerbttn next-bttn" onclick="redirectpage()">Regjistrohu</button> 
 
                 </div>
             </div>

@@ -208,3 +208,63 @@
     font-weight: 300;
 }
 
+.logout-bttn{
+    color:#0c4f91;
+    padding: 2px 10px;
+    background-color:transparent;
+    border: 1px solid #0c4f91;
+    border-radius: 6px;
+    font-weight: 300;
+
+}
+
+.bttn-part{
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end; 
+     align-items: center;
+ } 
+
+ .header{
+    padding: 5px;
+    background-color: aliceblue;
+ }
+
+ .information-section{
+    margin-top: 50px;
+ }
+
+ .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #F5F5F5;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+
+ }
+
+ /* .show-paragraph{
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    height: 100vh;
+    margin: 0 !important;
+ } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
