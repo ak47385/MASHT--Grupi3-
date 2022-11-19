@@ -85,9 +85,36 @@ body{
     padding: 1px;
 }
 
+.personal-info{
+    margin-top: 30px;
+}
+
 .personal-info, .private-info{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
+}
+
+.registerbttn{
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 6px;
+}
+
+.bttn-section{
+    margin-top: 30px;
+}
+
+.goback-bttn{
+    background-color: transparent;
+    border-color: #ce0101;
+    color: #ce0101;
+}
+
+.next-bttn{
+    background-color: #0c4f91;
+    border-color: #0c4f91;
+    color: #fff;
 }
